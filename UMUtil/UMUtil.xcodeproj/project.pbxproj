@@ -23,8 +23,8 @@
 		6C4D03C220D0F4B70029AFAB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D03C120D0F4B70029AFAB /* libz.tbd */; };
 		6C4D03C420D0F4BE0029AFAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D03C320D0F4BE0029AFAB /* ImageIO.framework */; };
 		6C4D03C620D0F4C80029AFAB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D03C520D0F4C80029AFAB /* Photos.framework */; };
-		6C4D041F20D114080029AFAB /* UMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D041E20D114080029AFAB /* UMUtil.m */; };
 		6C4D042320D15C660029AFAB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D042220D15C660029AFAB /* Podfile */; };
+		6C4D046320D1E25A0029AFAB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D046220D1E25A0029AFAB /* AssetsLibrary.framework */; };
 		E2D9F66B888F5E2B136A276E /* libPods-UMUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325C47813BC821A0B6987F /* libPods-UMUtil.a */; };
 /* End PBXBuildFile section */
 
@@ -71,9 +71,8 @@
 		6C4D03C120D0F4B70029AFAB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		6C4D03C320D0F4BE0029AFAB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		6C4D03C520D0F4C80029AFAB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		6C4D041D20D114080029AFAB /* UMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUtil.h; sourceTree = "<group>"; };
-		6C4D041E20D114080029AFAB /* UMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMUtil.m; sourceTree = "<group>"; };
 		6C4D042220D15C660029AFAB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C4D046220D1E25A0029AFAB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		810FF70DCD801AF8F45EDE79 /* Pods-UMUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil.release.xcconfig"; sourceTree = "<group>"; };
 		CE325C47813BC821A0B6987F /* libPods-UMUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4D046320D1E25A0029AFAB /* AssetsLibrary.framework in Frameworks */,
 				6C4D03C620D0F4C80029AFAB /* Photos.framework in Frameworks */,
 				6C4D03C420D0F4BE0029AFAB /* ImageIO.framework in Frameworks */,
 				6C4D03C220D0F4B70029AFAB /* libz.tbd in Frameworks */,
@@ -138,7 +138,6 @@
 		6C4D035720D0F1860029AFAB /* UMUtil */ = {
 			isa = PBXGroup;
 			children = (
-				6C4D041B20D114080029AFAB /* Code */,
 				6C4D035820D0F1860029AFAB /* AppDelegate.h */,
 				6C4D035920D0F1860029AFAB /* AppDelegate.m */,
 				6C4D035B20D0F1860029AFAB /* ViewController.h */,
@@ -173,6 +172,7 @@
 		6C4D03B620D0F4920029AFAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C4D046220D1E25A0029AFAB /* AssetsLibrary.framework */,
 				6C4D03C520D0F4C80029AFAB /* Photos.framework */,
 				6C4D03C320D0F4BE0029AFAB /* ImageIO.framework */,
 				6C4D03C120D0F4B70029AFAB /* libz.tbd */,
@@ -184,24 +184,6 @@
 				CE325C47813BC821A0B6987F /* libPods-UMUtil.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6C4D041B20D114080029AFAB /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				6C4D041C20D114080029AFAB /* Util */,
-			);
-			name = Code;
-			path = ../../Code;
-			sourceTree = "<group>";
-		};
-		6C4D041C20D114080029AFAB /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				6C4D041D20D114080029AFAB /* UMUtil.h */,
-				6C4D041E20D114080029AFAB /* UMUtil.m */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 		8300876328156562D7450CB1 /* Pods */ = {
@@ -407,7 +389,6 @@
 				6C4D035D20D0F1860029AFAB /* ViewController.m in Sources */,
 				6C4D036820D0F1860029AFAB /* main.m in Sources */,
 				6C4D035A20D0F1860029AFAB /* AppDelegate.m in Sources */,
-				6C4D041F20D114080029AFAB /* UMUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +560,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.UMUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -599,6 +581,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.UMUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
