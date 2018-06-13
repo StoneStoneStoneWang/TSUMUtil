@@ -1,0 +1,9 @@
+platform :ios, ‘9.0’
+
+use_frameworks!
+
+target 'UMUtil' do
+
+pod 'UMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
+
+end
