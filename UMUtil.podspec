@@ -8,7 +8,7 @@ s.description  = <<-DESC
 写此代码的初衷是在项目中导入UM之后出现编译问题
 DESC
 
-s.homepage     = "https://github.com/StoneStoneStoneWang/UMUtil"
+s.homepage     = "https://github.com/StoneStoneStoneWang/TSUMUtil"
 s.license      = { :type => "MIT", :file => "LICENSE.md" }
 s.author             = { "StoneStoneStoneWang" => "yuanxingfu1314@163.com" }
 s.platform     = :ios, "9.0"
@@ -18,7 +18,7 @@ s.requires_arc = true
 
 s.frameworks = 'UIKit', 'Foundation'
 
-s.source       = { :git => "https://github.com/StoneStoneStoneWang/UMUtil.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/StoneStoneStoneWang/TSUMUtil.git", :tag => "#{s.version}" }
 
 s.source_files = "UMUtil/Code/**/*.{h,m}"
 

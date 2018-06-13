@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+#import "UMUtil.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UMUtil shared] regUMAppKey];
     return YES;
 }
 
