@@ -22,10 +22,6 @@ s.source       = { :git => "https://github.com/StoneStoneStoneWang/TSUMUtil.git"
 
 s.source_files = "Code/**/*.{h,m}"
 
-s.dependency 'UMCCommon'
-
-s.dependency 'UMCSecurityPlugins'
-
 s.dependency 'UMCShare/Social/WeChat'
 
 s.dependency 'UMCShare/Social/QQ'

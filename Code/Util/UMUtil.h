@@ -11,9 +11,9 @@
 #import <UIKit/UIKit.h>
 ///Users/threestonewang/Desktop/仓库/UMUtil/Code/Util/UMUtil.h:14:9: 'UMShare/UMShare.h' file not found
 // U-Share核心SDK
-#import <UMShare/UMShare.h>
+//#import <UMShare/UMShare.h>
 // U-Share分享面板SDK，未添加分享面板SDK可将此行去掉
-#import <UShareUI/UShareUI.h>
+//#import <UShareUI/UShareUI.h>
 
 typedef void(^UMSuccBlock)(void);
 
@@ -29,9 +29,9 @@ typedef void(^UMFailBlock)(void);
 
 #pragma mark --- share
 
-- (void)share:(UMSocialPlatformType)plat withThumImage:(UIImage *)thumImage andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail;
+//- (void)share:(UMSocialPlatformType)plat withThumImage:(UIImage *)thumImage andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail;
 
-- (BOOL)handle:(NSURL *)url forSourceApplication:(NSString *)sourceApplication andAnnotation:(id)annotation;
-
-- (BOOL)handle:(NSURL *)url options:(NSDictionary*)options;
+//- (BOOL)handle:(NSURL *)url forSourceApplication:(NSString *)sourceApplication andAnnotation:(id)annotation;
+//
+//- (BOOL)handle:(NSURL *)url options:(NSDictionary*)options;
 @end

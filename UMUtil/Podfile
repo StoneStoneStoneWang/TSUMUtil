@@ -4,6 +4,6 @@ use_frameworks!
 
 target 'UMUtil' do
 
-pod 'UMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
+pod 'TSUMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
 
 end
