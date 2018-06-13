@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-s.name         = "UMUtil"
+s.name         = "TSUMUtil"
 s.version      = "1.0.1"
 s.summary      = "A Lib For UM."
 s.description  = <<-DESC
