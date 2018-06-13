@@ -78,3 +78,8 @@ Photos.framework
 <string>timopensdkdataline</string>
 <string>wtlogintimV1</string>
 <string>timapiV1</string>
+## 遇到的问题
+与ping++冲突
+遇到静态.a包的时候 需要加入  --use-libraries
+遇到警告的时候 --allow-warnings
+pod trunk push TSUMUtil.podspec --verbose --use-libraries --allow-warnings

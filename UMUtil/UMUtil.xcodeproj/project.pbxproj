@@ -24,7 +24,8 @@
 		6C4D03C420D0F4BE0029AFAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D03C320D0F4BE0029AFAB /* ImageIO.framework */; };
 		6C4D03C620D0F4C80029AFAB /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4D03C520D0F4C80029AFAB /* Photos.framework */; };
 		6C4D041F20D114080029AFAB /* UMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D041E20D114080029AFAB /* UMUtil.m */; };
-		6C4D042120D1142C0029AFAB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D042020D1142C0029AFAB /* Podfile */; };
+		6C4D042320D15C660029AFAB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D042220D15C660029AFAB /* Podfile */; };
+		E2D9F66B888F5E2B136A276E /* libPods-UMUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE325C47813BC821A0B6987F /* libPods-UMUtil.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683F14A1843EAD7731485230 /* Pods-UMUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil.debug.xcconfig"; sourceTree = "<group>"; };
 		6C4D035520D0F1860029AFAB /* UMUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4D035820D0F1860029AFAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4D035920D0F1860029AFAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,7 +73,9 @@
 		6C4D03C520D0F4C80029AFAB /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		6C4D041D20D114080029AFAB /* UMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUtil.h; sourceTree = "<group>"; };
 		6C4D041E20D114080029AFAB /* UMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMUtil.m; sourceTree = "<group>"; };
-		6C4D042020D1142C0029AFAB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C4D042220D15C660029AFAB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		810FF70DCD801AF8F45EDE79 /* Pods-UMUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil.release.xcconfig"; sourceTree = "<group>"; };
+		CE325C47813BC821A0B6987F /* libPods-UMUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 				6C4D03BC20D0F49F0029AFAB /* SystemConfiguration.framework in Frameworks */,
 				6C4D03BA20D0F49B0029AFAB /* CoreGraphics.framework in Frameworks */,
 				6C4D03B820D0F4920029AFAB /* libsqlite3.tbd in Frameworks */,
+				E2D9F66B888F5E2B136A276E /* libPods-UMUtil.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +115,13 @@
 		6C4D034C20D0F1860029AFAB = {
 			isa = PBXGroup;
 			children = (
-				6C4D042020D1142C0029AFAB /* Podfile */,
+				6C4D042220D15C660029AFAB /* Podfile */,
 				6C4D035720D0F1860029AFAB /* UMUtil */,
 				6C4D037020D0F1870029AFAB /* UMUtilTests */,
 				6C4D037B20D0F1870029AFAB /* UMUtilUITests */,
 				6C4D035620D0F1860029AFAB /* Products */,
 				6C4D03B620D0F4920029AFAB /* Frameworks */,
+				8300876328156562D7450CB1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +181,7 @@
 				6C4D03BB20D0F49F0029AFAB /* SystemConfiguration.framework */,
 				6C4D03B920D0F49B0029AFAB /* CoreGraphics.framework */,
 				6C4D03B720D0F4920029AFAB /* libsqlite3.tbd */,
+				CE325C47813BC821A0B6987F /* libPods-UMUtil.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +204,15 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		8300876328156562D7450CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				683F14A1843EAD7731485230 /* Pods-UMUtil.debug.xcconfig */,
+				810FF70DCD801AF8F45EDE79 /* Pods-UMUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4D038120D0F1870029AFAB /* Build configuration list for PBXNativeTarget "UMUtil" */;
 			buildPhases = (
+				E7E68326F9B779F51F778171 /* [CP] Check Pods Manifest.lock */,
 				6C4D035120D0F1860029AFAB /* Sources */,
 				6C4D035220D0F1860029AFAB /* Frameworks */,
 				6C4D035320D0F1860029AFAB /* Resources */,
+				2D6E15A83D50232C7EF3E235 /* [CP] Embed Pods Frameworks */,
+				D3873A274A644827260DFEB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,7 +324,7 @@
 			files = (
 				6C4D036520D0F1860029AFAB /* LaunchScreen.storyboard in Resources */,
 				6C4D036220D0F1860029AFAB /* Assets.xcassets in Resources */,
-				6C4D042120D1142C0029AFAB /* Podfile in Resources */,
+				6C4D042320D15C660029AFAB /* Podfile in Resources */,
 				6C4D036020D0F1860029AFAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +344,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6E15A83D50232C7EF3E235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3873A274A644827260DFEB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMUtil/Pods-UMUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E68326F9B779F51F778171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMUtil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C4D035120D0F1860029AFAB /* Sources */ = {
@@ -495,27 +568,17 @@
 		};
 		6C4D038220D0F1870029AFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683F14A1843EAD7731485230 /* Pods-UMUtil.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9TR9D33ZW;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Code/common/common_ios_1.5.0/normal",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/UMSocialUI",
-					"$(PROJECT_DIR)/Code/thirdparties/thirdparties_ios_1.0.5",
-					"$(PROJECT_DIR)/Code/umcommonlog/umcommonlog_ios_1.0.0",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UMUtil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/QQ",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/Sina",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/WeChat",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.UMUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -525,27 +588,17 @@
 		};
 		6C4D038320D0F1870029AFAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810FF70DCD801AF8F45EDE79 /* Pods-UMUtil.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9TR9D33ZW;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Code/common/common_ios_1.5.0/normal",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/UMSocialUI",
-					"$(PROJECT_DIR)/Code/thirdparties/thirdparties_ios_1.0.5",
-					"$(PROJECT_DIR)/Code/umcommonlog/umcommonlog_ios_1.0.0",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = UMUtil/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/QQ",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/Sina",
-					"$(PROJECT_DIR)/Code/share/share_ios_6.9.2/SocialLibraries/WeChat",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.UMUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
