@@ -4,7 +4,7 @@ UMUtil
 
 ## Pod
 
-pod 'UMUtil',:git=>'https://github.com/StoneStoneStoneWang/UMUtil.git'
+pod 'TSUMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
 
 #初衷
 

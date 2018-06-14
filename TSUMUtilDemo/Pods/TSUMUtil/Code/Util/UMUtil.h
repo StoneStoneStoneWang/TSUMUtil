@@ -33,7 +33,7 @@ typedef void(^UMFailBlock)(void);
 
 #pragma mark --- share
 
-- (void)share:(UMSocialPlatformType)plat withThumImage:(UIImage *)thumImage andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail;
+- (void)share:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail;
 //
 - (BOOL)handle:(NSURL *)url forSourceApplication:(NSString *)sourceApplication andAnnotation:(id)annotation;
 

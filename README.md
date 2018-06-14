@@ -6,78 +6,16 @@ UMUtil
 
 pod 'TSUMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
 
-#初衷
+## 初衷
 
 写此代码的初衷是在项目中导入UM之后出现编译问题
 
-*在Other Linker Flags加入-ObjC 注意不要写为-Objc
+## 在Other Linker Flags加入-ObjC 注意不要写为-Objc
+## 白名单之类的不提
 
-*依赖库
-libsqlite3.tbd
-CoreGraphics.framework
-SystemConfiguration.framework
-CoreTelephony.framework
-libsqlite3.tbd
-libc++.tbd
-libz.tbd
+## 注意:(1)在项目中加入 UMConfig.plist 对应UMBean 中的属性设置键值对
 
-SystemConfiguration.framework
-CoreTelephony.framework
-ImageIO.framework
-libsqlite3.tbd
-libz.tbd
-Photos.framework
-
-*设置白名单
-<!-- 微信 URL Scheme 白名单-->
-<string>wechat</string>
-<string>weixin</string>
-<!-- 新浪微博 URL Scheme 白名单-->
-<string>sinaweibohd</string>
-<string>sinaweibo</string>
-<string>sinaweibosso</string>
-<string>weibosdk</string>
-<string>weibosdk2.5</string>
-<!-- QQ、Qzone URL Scheme 白名单-->
-<string>mqqapi</string>
-<string>mqq</string>
-<string>mqqOpensdkSSoLogin</string>
-<string>mqqconnect</string>
-<string>mqqopensdkdataline</string>
-<string>mqqopensdkgrouptribeshare</string>
-<string>mqqopensdkfriend</string>
-<string>mqqopensdkapi</string>
-<string>mqqopensdkapiV2</string>
-<string>mqqopensdkapiV3</string>
-<string>mqqopensdkapiV4</string>
-<string>mqzoneopensdk</string>
-<string>wtloginmqq</string>
-<string>wtloginmqq2</string>
-<string>mqqwpa</string>
-<string>mqzone</string>
-<string>mqzonev2</string>
-<string>mqzoneshare</string>
-<string>wtloginqzone</string>
-<string>mqzonewx</string>
-<string>mqzoneopensdkapiV2</string>
-<string>mqzoneopensdkapi19</string>
-<string>mqzoneopensdkapi</string>
-<string>mqqbrowser</string>
-<string>mttbrowser</string>
-<string>tim</string>
-<string>timapi</string>
-<string>timopensdkfriend</string>
-<string>timwpa</string>
-<string>timgamebindinggroup</string>
-<string>timapiwallet</string>
-<string>timOpensdkSSoLogin</string>
-<string>wtlogintim</string>
-<string>timopensdkgrouptribeshare</string>
-<string>timopensdkapiV4</string>
-<string>timgamebindinggroup</string>
-<string>timopensdkdataline</string>
-<string>wtlogintimV1</string>
-<string>timapiV1</string>
+## 注意:(2) 目前仅支持 分享网页
 ## 遇到的问题
 与ping++冲突
 遇到静态.a包的时候 需要加入  --use-libraries

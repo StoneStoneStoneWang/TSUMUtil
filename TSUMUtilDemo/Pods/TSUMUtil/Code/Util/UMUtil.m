@@ -7,7 +7,8 @@
 //
 
 #import "UMUtil.h"
-
+#import "UMBean.h"
+#import <MJExtension/MJExtension.h>
 static UMUtil *manager = nil;
 @implementation UMUtil
 
@@ -23,20 +24,22 @@ static UMUtil *manager = nil;
 }
 - (void)regUMAppKey {
     
-    [UMSocialManager defaultManager].umSocialAppkey = @"5b03c2daf29d986c25000026";
+    UMBean *um = [UMBean mj_objectWithFile:[[NSBundle mainBundle] pathForResource:@"UMConfig" ofType:@".plist"]];
     
-    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:@"wxa754913ed33e8405" appSecret:@"174f26cadf1da91e015d9799338a1ddd" redirectURL:@"http://mobile.umeng.com/social"];
+    [UMSocialManager defaultManager].umSocialAppkey = um.UMSocialAppkey;
     
-    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@"1106923288" appSecret:@"T9LkhUk29WxuReQd" redirectURL:@"http://mobile.umeng.com/social"];
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:um.UMWechatAppkey appSecret:um.UMWechatAppSecret redirectURL:um.UMWechatRedirectURL];
+    
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:um.UMQQAppkey appSecret:um.UMQQAppSecret redirectURL:um.UMQQRedirectURL];
     
 }
-- (void)share:(UMSocialPlatformType)plat withThumImage:(UIImage *)thumImage andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
+- (void)share:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
     
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
         
-        UMShareWebpageObject *shareObj = [UMShareWebpageObject shareObjectWithTitle:@"锁嘟嘟" descr:@"专业锁匠服务App，服务于大众。" thumImage:thumImage];
+        UMShareWebpageObject *shareObj = [UMShareWebpageObject shareObjectWithTitle:title descr:descr thumImage:thumImage];
         
-        shareObj.webpageUrl = @"http://wxpay.dodosoon.com/sharePage.html";
+        shareObj.webpageUrl = webpageUrl;
         
         UMSocialMessageObject *obj = [UMSocialMessageObject new];
         

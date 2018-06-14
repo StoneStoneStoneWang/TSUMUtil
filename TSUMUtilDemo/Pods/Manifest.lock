@@ -1,5 +1,7 @@
 PODS:
-  - TSUMUtil (1.0.3):
+  - MJExtension (3.0.15)
+  - TSUMUtil (1.0.4):
+    - MJExtension
     - UMCCommon
     - UMCSecurityPlugins
     - UMCShare/Social/QQ
@@ -36,11 +38,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TSUMUtil:
-    :commit: bb3085e577194b1306f246ae10c0ca75d8f58c87
+    :commit: e6fc5f6d82693c2f7b85e4eb1d2f664473c7cd4c
     :git: https://github.com/StoneStoneStoneWang/TSUMUtil.git
 
 SPEC CHECKSUMS:
-  TSUMUtil: a7ed7314568cf0c1ffa69d82ad042df3ad4b004e
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  TSUMUtil: 37673bb02d4d588733cf92ca3a6c0044f765caf0
   UMCCommon: 16b674e9de0616d3a6128c551348a686d869c3c7
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
   UMCShare: 023886b10d11119331c9c46d8e8a0c31fe67c23e
