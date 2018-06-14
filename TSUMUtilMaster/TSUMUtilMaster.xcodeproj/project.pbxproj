@@ -20,6 +20,7 @@
 		6C4D04B720D2188A0029AFAB /* UMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04B620D218890029AFAB /* UMUtil.m */; };
 		6C4D04F920D228530029AFAB /* UMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D04F820D228530029AFAB /* UMConfig.plist */; };
 		6C4D04FC20D229D00029AFAB /* UMBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04FB20D229D00029AFAB /* UMBean.m */; };
+		6C4D050220D2568B0029AFAB /* UMUtilConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D050120D2568B0029AFAB /* UMUtilConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		6C4D04F820D228530029AFAB /* UMConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UMConfig.plist; sourceTree = "<group>"; };
 		6C4D04FA20D229D00029AFAB /* UMBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMBean.h; sourceTree = "<group>"; };
 		6C4D04FB20D229D00029AFAB /* UMBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMBean.m; sourceTree = "<group>"; };
+		6C4D050020D2568B0029AFAB /* UMUtilConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMUtilConst.h; sourceTree = "<group>"; };
+		6C4D050120D2568B0029AFAB /* UMUtilConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMUtilConst.m; sourceTree = "<group>"; };
 		AB8A0CFBE76AE5D30EA81075 /* Pods-TSUMUtilMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUMUtilMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSUMUtilMaster/Pods-TSUMUtilMaster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +166,7 @@
 		6C4D04B320D218890029AFAB /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				6C4D04FF20D256570029AFAB /* UMUtilConst */,
 				6C4D04B420D218890029AFAB /* Util */,
 			);
 			name = Code;
@@ -178,6 +182,15 @@
 				6C4D04FB20D229D00029AFAB /* UMBean.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		6C4D04FF20D256570029AFAB /* UMUtilConst */ = {
+			isa = PBXGroup;
+			children = (
+				6C4D050020D2568B0029AFAB /* UMUtilConst.h */,
+				6C4D050120D2568B0029AFAB /* UMUtilConst.m */,
+			);
+			path = UMUtilConst;
 			sourceTree = "<group>";
 		};
 		E9CEC74F0E4F32C45E31F43C /* Pods */ = {
@@ -385,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C4D048420D217B40029AFAB /* ViewController.m in Sources */,
+				6C4D050220D2568B0029AFAB /* UMUtilConst.m in Sources */,
 				6C4D048F20D217B50029AFAB /* main.m in Sources */,
 				6C4D048120D217B40029AFAB /* AppDelegate.m in Sources */,
 				6C4D04FC20D229D00029AFAB /* UMBean.m in Sources */,

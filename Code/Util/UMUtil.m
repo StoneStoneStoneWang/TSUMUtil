@@ -22,6 +22,11 @@ static UMUtil *manager = nil;
     });
     return manager;
 }
+
+- (NSString *)currentVersion {
+    
+    return @TSUMUtil_VERSION;
+}
 - (void)regUMAppKey {
     
     UMBean *um = [UMBean mj_objectWithFile:[[NSBundle mainBundle] pathForResource:@"UMConfig" ofType:@".plist"]];
@@ -33,7 +38,7 @@ static UMUtil *manager = nil;
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:um.UMQQAppkey appSecret:um.UMQQAppSecret redirectURL:um.UMQQRedirectURL];
     
 }
-- (void)share:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
+- (void)shareWithUMPanelBoard:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
     
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
         
@@ -57,6 +62,29 @@ static UMUtil *manager = nil;
         }];
     }];
 }
+
+- (void)shareWithNoUMPanelBoard:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
+    
+    UMShareWebpageObject *shareObj = [UMShareWebpageObject shareObjectWithTitle:title descr:descr thumImage:thumImage];
+    
+    shareObj.webpageUrl = webpageUrl;
+    
+    UMSocialMessageObject *obj = [UMSocialMessageObject new];
+    
+    obj.shareObject = shareObj;
+    
+    [[UMSocialManager defaultManager] shareToPlatform:plat messageObject:obj currentViewController:current completion:^(id result, NSError *error) {
+        
+        if (error) {
+            
+            succ();
+        } else {
+            
+            fail();
+        }
+    }];
+}
+
 - (BOOL)handle:(NSURL *)url forSourceApplication:(NSString *)sourceApplication andAnnotation:(id)annotation{
     
     return [[UMSocialManager defaultManager] handleOpenURL:url sourceApplication:sourceApplication annotation:annotation];
