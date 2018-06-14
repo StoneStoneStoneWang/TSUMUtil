@@ -31,6 +31,8 @@ s.dependency 'UMCShare/Social/WeChat'
 s.dependency 'UMCShare/Social/QQ'
 
 s.dependency 'UMCShare/UI'
+
+s.dependency 'MJExtension'
 end
 
 
