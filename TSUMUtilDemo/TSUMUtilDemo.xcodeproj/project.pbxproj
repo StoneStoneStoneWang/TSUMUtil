@@ -16,6 +16,7 @@
 		6C4D04DE20D2275D0029AFAB /* TSUMUtilDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04DD20D2275D0029AFAB /* TSUMUtilDemoTests.m */; };
 		6C4D04E920D2275D0029AFAB /* TSUMUtilDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04E820D2275D0029AFAB /* TSUMUtilDemoUITests.m */; };
 		6C4D04F720D2276E0029AFAB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D04F620D2276E0029AFAB /* Podfile */; };
+		6C4D04FE20D22C190029AFAB /* UMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D04FD20D22C190029AFAB /* UMConfig.plist */; };
 		D24188798EB9C2049E385141 /* libPods-TSUMUtilDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC55D88674EE3FD44C87FD40 /* libPods-TSUMUtilDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		6C4D04E820D2275D0029AFAB /* TSUMUtilDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUMUtilDemoUITests.m; sourceTree = "<group>"; };
 		6C4D04EA20D2275D0029AFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4D04F620D2276E0029AFAB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C4D04FD20D22C190029AFAB /* UMConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UMConfig.plist; sourceTree = "<group>"; };
 		B2C8BBC291E28BC3D3B21A5D /* Pods-TSUMUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUMUtilDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSUMUtilDemo/Pods-TSUMUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B837602AA4EE0A1A8EA8AE6C /* Pods-TSUMUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUMUtilDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSUMUtilDemo/Pods-TSUMUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DC55D88674EE3FD44C87FD40 /* libPods-TSUMUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSUMUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				6C4D04C520D2275D0029AFAB /* AppDelegate.m */,
 				6C4D04C720D2275D0029AFAB /* ViewController.h */,
 				6C4D04C820D2275D0029AFAB /* ViewController.m */,
+				6C4D04FD20D22C190029AFAB /* UMConfig.plist */,
 				6C4D04CA20D2275D0029AFAB /* Main.storyboard */,
 				6C4D04CD20D2275D0029AFAB /* Assets.xcassets */,
 				6C4D04CF20D2275D0029AFAB /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4D04FE20D22C190029AFAB /* UMConfig.plist in Resources */,
 				6C4D04D120D2275D0029AFAB /* LaunchScreen.storyboard in Resources */,
 				6C4D04CE20D2275D0029AFAB /* Assets.xcassets in Resources */,
 				6C4D04F720D2276E0029AFAB /* Podfile in Resources */,

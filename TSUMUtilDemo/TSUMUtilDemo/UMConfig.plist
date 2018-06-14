@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UMSocialAppkey</key>
+	<string>5b03c2daf29d986c25000026</string>
+	<key>UMWechatAppkey</key>
+	<string>wxa754913ed33e8405</string>
+	<key>UMWechatAppSecret</key>
+	<string>174f26cadf1da91e015d9799338a1ddd</string>
+	<key>UMWechatRedirectURL</key>
+	<string>http://mobile.umeng.com/social</string>
+	<key>UMQQAppkey</key>
+	<string>1106923288</string>
+	<key>UMQQAppSecret</key>
+	<string>T9LkhUk29WxuReQd</string>
+	<key>UMQQRedirectURL</key>
+	<string>http://mobile.umeng.com/social</string>
+</dict>
+</plist>
