@@ -13,4 +13,6 @@ pod 'UMCShare/UI'
 pod 'UMCShare/Social/WeChat'
 
 pod 'UMCShare/Social/QQ'
+
+pod 'MJExtension'
 end

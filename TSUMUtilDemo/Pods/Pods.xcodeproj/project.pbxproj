@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39131A5356CEC13CB8EEFEE73E44F366 /* UMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A26888DFADA60A254A60DBA642B9DF /* UMUtil.m */; };
+		3C5A4159590228E9E28BDDAD66BF8493 /* Pods-TSUMUtilDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC47B50B8C3AC8BAE082FB3858CDC8 /* Pods-TSUMUtilDemo-dummy.m */; };
+		5C582BA11FB44C966B39E50334C6A397 /* UMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1564E3FE6361316834A4B40953C91B /* UMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B502C240C6D171E4F6637BF1C643C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9C3CA6F626709CCBF781AEE71AE74751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B4F2E29531236BE3B47B32C154C0949A /* TSUMUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0A31D06DD82B7E7B6D11DC66824D0D /* TSUMUtil-dummy.m */; };
+		E506D24DE3ACDE2F93DC5C9ABDAD97A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65951AA0875D87825BC950DB07FC338B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69ED7BA7B9391553D08219FD993832F7;
+			remoteInfo = TSUMUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1081FA27939981DAEC294AB2D6D69E79 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		1DB9D0D46F92B0CE4B612015EE28F7A1 /* TSUMUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSUMUtil-prefix.pch"; sourceTree = "<group>"; };
+		1F93F64D80BC8AE4ED2DD6AFFFB5878E /* libPods-TSUMUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSUMUtilDemo.a"; path = "libPods-TSUMUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2183EF5BA620703D5068CAC90561DA5C /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		2E0A31D06DD82B7E7B6D11DC66824D0D /* TSUMUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSUMUtil-dummy.m"; sourceTree = "<group>"; };
+		322188BE7557C2BD6C304ECAAE512FA2 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		3B1564E3FE6361316834A4B40953C91B /* UMUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMUtil.h; path = Code/Util/UMUtil.h; sourceTree = "<group>"; };
+		3DCC657E4D6AB5F8BFD147E31B80C57F /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		491BD2B84608E65DA8652397E5F9ED72 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		4DCD1E813B876FB51F56B7CDBFC681B6 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UMShare/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		5B8BD8F2D0252AF59381758DA34DBA09 /* Pods-TSUMUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSUMUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5EDE7289DA750F1B17BBA98C8307F462 /* Pods-TSUMUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSUMUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6910A24F56361D29A2DF22E24F184EBA /* TSUMUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSUMUtil.xcconfig; sourceTree = "<group>"; };
+		7E1EC56B3678E2EDF65A89C0AB19EAE5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		7FAC47B50B8C3AC8BAE082FB3858CDC8 /* Pods-TSUMUtilDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSUMUtilDemo-dummy.m"; sourceTree = "<group>"; };
+		8962514A97075BA60E40374907AA4FC6 /* Pods-TSUMUtilDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSUMUtilDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F5C6A02622E273EEF4B13D9CFFBDEE /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		97A26888DFADA60A254A60DBA642B9DF /* UMUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMUtil.m; path = Code/Util/UMUtil.m; sourceTree = "<group>"; };
+		9D8CB5DD7B811B2B076726FA7E023A46 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		A9D74CC1DCE23FEC26D8553782E38AB8 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		ACE8E07ABF0AA0F634D7A6B2FFBE33FB /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		B3F8C5D708502DCD3268D4334583E8D2 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = thirdparties/UTDID.framework; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1A95B98E11E42442989979ACE368796 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = UMShare/SocialLibraries/QQ/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		C3F22082D276E9E13A82F0CE48C9D670 /* libTSUMUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTSUMUtil.a; path = libTSUMUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC987C1B989A56A1DB1879CF84237AF /* Pods-TSUMUtilDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSUMUtilDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E121C339FC767D8236836F8217125654 /* Pods-TSUMUtilDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSUMUtilDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2776DD9A1B7A9DFC951DD10464B5F6D /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		EA75F9EF29F7BA7BD45E57F11E57F687 /* Pods-TSUMUtilDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSUMUtilDemo-resources.sh"; sourceTree = "<group>"; };
+		EAC196557DD09F202BD58F0EE6E87437 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		EB0471BD88F5B0E5AC673743CBD13B23 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171A66FF60A25869BFD232260A104DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E506D24DE3ACDE2F93DC5C9ABDAD97A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BA3E25BB7E6062CECC62B7AD8694DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3CA6F626709CCBF781AEE71AE74751 /* Foundation.framework in Frameworks */,
+				6B502C240C6D171E4F6637BF1C643C39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040FD47E7BE6E238DA55419FEF8782FF /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				4DCD1E813B876FB51F56B7CDBFC681B6 /* UMSocialQQHandler.h */,
+				43C03D861E9AEBEC4FC76A247EE20BB3 /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		18E2BD57C791CE7860637E3C41AEE456 /* TSUMUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3B1564E3FE6361316834A4B40953C91B /* UMUtil.h */,
+				97A26888DFADA60A254A60DBA642B9DF /* UMUtil.m */,
+				6484B0DE0649CF2A697F473143D2A321 /* Support Files */,
+			);
+			name = TSUMUtil;
+			path = TSUMUtil;
+			sourceTree = "<group>";
+		};
+		1D067E75745BA2FDB5BE4AF172E18031 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C735B559800DBE2C1F9428E14F16F7FC /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1DE8B0A222813C442BC358031CC74940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A95B98E11E42442989979ACE368796 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FCC02308604015F13ED28FD81F98D24 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				322188BE7557C2BD6C304ECAAE512FA2 /* WechatAuthSDK.h */,
+				1081FA27939981DAEC294AB2D6D69E79 /* WXApi.h */,
+				7E1EC56B3678E2EDF65A89C0AB19EAE5 /* WXApiObject.h */,
+				7358F9B3E4C9C44BD88E3A87A9631568 /* Frameworks */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		379FF7B4177602D2A752B993007B9B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F93F64D80BC8AE4ED2DD6AFFFB5878E /* libPods-TSUMUtilDemo.a */,
+				C3F22082D276E9E13A82F0CE48C9D670 /* libTSUMUtil.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43C03D861E9AEBEC4FC76A247EE20BB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2183EF5BA620703D5068CAC90561DA5C /* libSocialQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		462F2F1394A2C8DB7E37E1421756ECE6 /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				9D8CB5DD7B811B2B076726FA7E023A46 /* UMSocialWechatHandler.h */,
+				7009E3E02B65419586A1060209BE176B /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		50B282A6CBD04376A712553AB5D71924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				491BD2B84608E65DA8652397E5F9ED72 /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		531FB00721FB9363EA40EB20B5A9401E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				786949753B097BC4E602E99F4A2137DA /* Frameworks */,
+				E37F0BB724CDFD1D0551B2C4D10432A3 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5DA7686F169BACCBB6F59DBC28B6210F /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				6CBECCABA520FFB7277F0DE8F607E751 /* QQ */,
+				040FD47E7BE6E238DA55419FEF8782FF /* ReducedQQ */,
+				462F2F1394A2C8DB7E37E1421756ECE6 /* ReducedWeChat */,
+				1FCC02308604015F13ED28FD81F98D24 /* WeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		6424E2CD333BDCD9D53C4BCEC0344926 /* Pods-TSUMUtilDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E121C339FC767D8236836F8217125654 /* Pods-TSUMUtilDemo-acknowledgements.markdown */,
+				8962514A97075BA60E40374907AA4FC6 /* Pods-TSUMUtilDemo-acknowledgements.plist */,
+				7FAC47B50B8C3AC8BAE082FB3858CDC8 /* Pods-TSUMUtilDemo-dummy.m */,
+				CFC987C1B989A56A1DB1879CF84237AF /* Pods-TSUMUtilDemo-frameworks.sh */,
+				EA75F9EF29F7BA7BD45E57F11E57F687 /* Pods-TSUMUtilDemo-resources.sh */,
+				5EDE7289DA750F1B17BBA98C8307F462 /* Pods-TSUMUtilDemo.debug.xcconfig */,
+				5B8BD8F2D0252AF59381758DA34DBA09 /* Pods-TSUMUtilDemo.release.xcconfig */,
+			);
+			name = "Pods-TSUMUtilDemo";
+			path = "Target Support Files/Pods-TSUMUtilDemo";
+			sourceTree = "<group>";
+		};
+		6484B0DE0649CF2A697F473143D2A321 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6910A24F56361D29A2DF22E24F184EBA /* TSUMUtil.xcconfig */,
+				2E0A31D06DD82B7E7B6D11DC66824D0D /* TSUMUtil-dummy.m */,
+				1DB9D0D46F92B0CE4B612015EE28F7A1 /* TSUMUtil-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TSUMUtil";
+			sourceTree = "<group>";
+		};
+		6CBECCABA520FFB7277F0DE8F607E751 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				1DE8B0A222813C442BC358031CC74940 /* Frameworks */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		7009E3E02B65419586A1060209BE176B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC196557DD09F202BD58F0EE6E87437 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7358F9B3E4C9C44BD88E3A87A9631568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCC657E4D6AB5F8BFD147E31B80C57F /* libSocialOfficialWeChat.a */,
+				A9D74CC1DCE23FEC26D8553782E38AB8 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		786949753B097BC4E602E99F4A2137DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F5C6A02622E273EEF4B13D9CFFBDEE /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CD698C57C5F3FD2D6EE850CC2C1DA01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18E2BD57C791CE7860637E3C41AEE456 /* TSUMUtil */,
+				7EB7F91631A892620A00F264C76924AF /* UMCCommon */,
+				C6E09997A9C2EC4049EB89D2D9549784 /* UMCSecurityPlugins */,
+				BC98E988B0D7DF03A87584F4906AFC22 /* UMCShare */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7CD698C57C5F3FD2D6EE850CC2C1DA01 /* Pods */,
+				379FF7B4177602D2A752B993007B9B32 /* Products */,
+				97493FE755895A69BCCC976AC3CFDABA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB7F91631A892620A00F264C76924AF /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				50B282A6CBD04376A712553AB5D71924 /* Frameworks */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		910C3F44F11830B54076B9710E1A7BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE8E07ABF0AA0F634D7A6B2FFBE33FB /* SecurityEnvSDK.framework */,
+				B3F8C5D708502DCD3268D4334583E8D2 /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97493FE755895A69BCCC976AC3CFDABA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6424E2CD333BDCD9D53C4BCEC0344926 /* Pods-TSUMUtilDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC98E988B0D7DF03A87584F4906AFC22 /* UMCShare */ = {
+			isa = PBXGroup;
+			children = (
+				1D067E75745BA2FDB5BE4AF172E18031 /* Core */,
+				5DA7686F169BACCBB6F59DBC28B6210F /* Social */,
+				531FB00721FB9363EA40EB20B5A9401E /* UI */,
+			);
+			name = UMCShare;
+			path = UMCShare;
+			sourceTree = "<group>";
+		};
+		C6E09997A9C2EC4049EB89D2D9549784 /* UMCSecurityPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				910C3F44F11830B54076B9710E1A7BC4 /* Frameworks */,
+			);
+			name = UMCSecurityPlugins;
+			path = UMCSecurityPlugins;
+			sourceTree = "<group>";
+		};
+		C735B559800DBE2C1F9428E14F16F7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2776DD9A1B7A9DFC951DD10464B5F6D /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37F0BB724CDFD1D0551B2C4D10432A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB0471BD88F5B0E5AC673743CBD13B23 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CCB24C628A4670B321F24BC1B46A5C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C582BA11FB44C966B39E50334C6A397 /* UMUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69ED7BA7B9391553D08219FD993832F7 /* TSUMUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12A54D327B154CEA7A598AA668712F8 /* Build configuration list for PBXNativeTarget "TSUMUtil" */;
+			buildPhases = (
+				C22D060DED69AE63280F46C1D6CB71BC /* Sources */,
+				C7BA3E25BB7E6062CECC62B7AD8694DF /* Frameworks */,
+				5CCB24C628A4670B321F24BC1B46A5C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSUMUtil;
+			productName = TSUMUtil;
+			productReference = C3F22082D276E9E13A82F0CE48C9D670 /* libTSUMUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AE39CF94270A8AD35267C31476E386EE /* Pods-TSUMUtilDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81422E2EA0360D1D9301620C7C1D0DAC /* Build configuration list for PBXNativeTarget "Pods-TSUMUtilDemo" */;
+			buildPhases = (
+				D4B0FA2EAE698726A5005E374825EDC3 /* Sources */,
+				171A66FF60A25869BFD232260A104DD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAEA6F47E51C3203DF94B19BA371C5B /* PBXTargetDependency */,
+			);
+			name = "Pods-TSUMUtilDemo";
+			productName = "Pods-TSUMUtilDemo";
+			productReference = 1F93F64D80BC8AE4ED2DD6AFFFB5878E /* libPods-TSUMUtilDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 379FF7B4177602D2A752B993007B9B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE39CF94270A8AD35267C31476E386EE /* Pods-TSUMUtilDemo */,
+				69ED7BA7B9391553D08219FD993832F7 /* TSUMUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22D060DED69AE63280F46C1D6CB71BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F2E29531236BE3B47B32C154C0949A /* TSUMUtil-dummy.m in Sources */,
+				39131A5356CEC13CB8EEFEE73E44F366 /* UMUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B0FA2EAE698726A5005E374825EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5A4159590228E9E28BDDAD66BF8493 /* Pods-TSUMUtilDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAEA6F47E51C3203DF94B19BA371C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSUMUtil;
+			target = 69ED7BA7B9391553D08219FD993832F7 /* TSUMUtil */;
+			targetProxy = 65951AA0875D87825BC950DB07FC338B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BCDD724CACC2E272C7F155C1BD20590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6910A24F56361D29A2DF22E24F184EBA /* TSUMUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSUMUtil/TSUMUtil-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404413D158E9F18236ED3CB1B7D75E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8BD8F2D0252AF59381758DA34DBA09 /* Pods-TSUMUtilDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F378164B6777F6B17F5C1E89A03F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6910A24F56361D29A2DF22E24F184EBA /* TSUMUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSUMUtil/TSUMUtil-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D93E94BC0697C5051A2FCF194F00919F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDE7289DA750F1B17BBA98C8307F462 /* Pods-TSUMUtilDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81422E2EA0360D1D9301620C7C1D0DAC /* Build configuration list for PBXNativeTarget "Pods-TSUMUtilDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93E94BC0697C5051A2FCF194F00919F /* Debug */,
+				404413D158E9F18236ED3CB1B7D75E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12A54D327B154CEA7A598AA668712F8 /* Build configuration list for PBXNativeTarget "TSUMUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCDD724CACC2E272C7F155C1BD20590 /* Debug */,
+				7F378164B6777F6B17F5C1E89A03F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

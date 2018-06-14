@@ -18,6 +18,8 @@
 		6C4D04A420D217B50029AFAB /* TSUMUtilMasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04A320D217B50029AFAB /* TSUMUtilMasterUITests.m */; };
 		6C4D04B220D217E20029AFAB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D04B120D217E20029AFAB /* Podfile */; };
 		6C4D04B720D2188A0029AFAB /* UMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04B620D218890029AFAB /* UMUtil.m */; };
+		6C4D04F920D228530029AFAB /* UMConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D04F820D228530029AFAB /* UMConfig.plist */; };
+		6C4D04FC20D229D00029AFAB /* UMBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D04FB20D229D00029AFAB /* UMBean.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		6C4D04B120D217E20029AFAB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C4D04B520D218890029AFAB /* UMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMUtil.h; sourceTree = "<group>"; };
 		6C4D04B620D218890029AFAB /* UMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMUtil.m; sourceTree = "<group>"; };
+		6C4D04F820D228530029AFAB /* UMConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UMConfig.plist; sourceTree = "<group>"; };
+		6C4D04FA20D229D00029AFAB /* UMBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMBean.h; sourceTree = "<group>"; };
+		6C4D04FB20D229D00029AFAB /* UMBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMBean.m; sourceTree = "<group>"; };
 		AB8A0CFBE76AE5D30EA81075 /* Pods-TSUMUtilMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSUMUtilMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSUMUtilMaster/Pods-TSUMUtilMaster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +132,7 @@
 				6C4D048020D217B40029AFAB /* AppDelegate.m */,
 				6C4D048220D217B40029AFAB /* ViewController.h */,
 				6C4D048320D217B40029AFAB /* ViewController.m */,
+				6C4D04F820D228530029AFAB /* UMConfig.plist */,
 				6C4D048520D217B40029AFAB /* Main.storyboard */,
 				6C4D048820D217B40029AFAB /* Assets.xcassets */,
 				6C4D048A20D217B50029AFAB /* LaunchScreen.storyboard */,
@@ -168,6 +174,8 @@
 			children = (
 				6C4D04B520D218890029AFAB /* UMUtil.h */,
 				6C4D04B620D218890029AFAB /* UMUtil.m */,
+				6C4D04FA20D229D00029AFAB /* UMBean.h */,
+				6C4D04FB20D229D00029AFAB /* UMBean.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -293,6 +301,7 @@
 				6C4D048C20D217B50029AFAB /* LaunchScreen.storyboard in Resources */,
 				6C4D048920D217B40029AFAB /* Assets.xcassets in Resources */,
 				6C4D04B220D217E20029AFAB /* Podfile in Resources */,
+				6C4D04F920D228530029AFAB /* UMConfig.plist in Resources */,
 				6C4D048720D217B40029AFAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,9 +329,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TSUMUtilMaster/Pods-TSUMUtilMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,6 +387,7 @@
 				6C4D048420D217B40029AFAB /* ViewController.m in Sources */,
 				6C4D048F20D217B50029AFAB /* main.m in Sources */,
 				6C4D048120D217B40029AFAB /* AppDelegate.m in Sources */,
+				6C4D04FC20D229D00029AFAB /* UMBean.m in Sources */,
 				6C4D04B720D2188A0029AFAB /* UMUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
