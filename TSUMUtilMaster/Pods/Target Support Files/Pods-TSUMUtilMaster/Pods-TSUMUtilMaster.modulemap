@@ -1,0 +1,6 @@
+framework module Pods_TSUMUtilMaster {
+  umbrella header "Pods-TSUMUtilMaster-umbrella.h"
+
+  export *
+  module * { export * }
+}
