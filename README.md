@@ -21,3 +21,16 @@ pod 'TSUMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
 遇到静态.a包的时候 需要加入  --use-libraries
 遇到警告的时候 --allow-warnings
 pod trunk push TSUMUtil.podspec --verbose --use-libraries --allow-warnings
+
+## 如下问题的解决办法 https://www.jianshu.com/p/ca3f366da8f1
+Cloning into'master'...
+
+error: RPC failed; curl56SSLRead()returnerror -36
+
+fatal: The remote end hung up unexpectedly
+
+fatal: early EOF
+
+fatal: index-pack failed
+
+## pod的时候 userframeword 去掉 或注释

@@ -7,6 +7,12 @@ target 'TSUMUtilDemo' do
 
 pod 'TSUMUtil',:git=>'https://github.com/StoneStoneStoneWang/TSUMUtil.git'
 
+#视图基础库
+#pod 'TS_UIKit',:git=>'https://github.com/StoneStoneStoneWang/TSUIKit.git'
+#文本框
+#pod 'TSTFKit',:git=>'https://github.com/StoneStoneStoneWang/TSTFKit.git'
+#请求
+#pod 'TSReqKit',:git=>'https://github.com/StoneStoneStoneWang/TSReqKit.git'
 end
 
 

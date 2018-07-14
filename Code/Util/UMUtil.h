@@ -36,6 +36,10 @@ typedef void(^UMFailBlock)(void);
 
 - (void)regUMAppKey;
 
+#pragma mark --- 设置分享面板
+
+- (void)setPreDefinePlatforms:(NSArray *)arr;
+
 #pragma mark --- share。不用自己做分享面板
 
 - (void)share:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail __attribute__((deprecated("1.0.5版本之前可用 1.0.6版本之后请使用 shareWithUMPanelBoard 或 shareWithNoUMPanelBoard")));

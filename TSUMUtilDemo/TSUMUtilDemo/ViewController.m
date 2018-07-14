@@ -19,6 +19,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[UMUtil shared] regUMAppKey];
+    
+    [[UMUtil shared] share:(UMSocialPlatformType_QQ) withTitle:@"" withDescr:@"" withThumImage:[UIImage new] andWebpageUrl:@"" andCurrentVC:self andSucc:^{
+        
+    } andFail:^{
+        
+        
+    }];
 }
 
 
