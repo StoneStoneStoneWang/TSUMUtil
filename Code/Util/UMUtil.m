@@ -29,22 +29,22 @@ static UMUtil *manager = nil;
 }
 - (void)regUMAppKey {
     
+    
+    
+//    UMConfigInstance 
+    
     UMBean *um = [UMBean mj_objectWithFile:[[NSBundle mainBundle] pathForResource:@"UMConfig" ofType:@".plist"]];
     
-    [UMSocialManager defaultManager].umSocialAppkey = um.UMSocialAppkey;
+    [UMConfigure initWithAppkey:um.UMSocialAppkey channel:@"App Store"];
+    
+//    [UMSocialManager defaultManager].umSocialAppkey = um.UMSocialAppkey;
     
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:um.UMWechatAppkey appSecret:um.UMWechatAppSecret redirectURL:um.UMWechatRedirectURL];
     
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:um.UMQQAppkey appSecret:um.UMQQAppSecret redirectURL:um.UMQQRedirectURL];
     
-    
 }
-- (void)setPreDefinePlatforms:(NSArray *)arr {
-    
-    [UMSocialUIManager setPreDefinePlatforms:arr];
-}
-
-- (void)share:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
+- (void)shareWithUMPanelBoardWithTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
     
     [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
         
@@ -56,31 +56,7 @@ static UMUtil *manager = nil;
         
         obj.shareObject = shareObj;
         
-        [[UMSocialManager defaultManager] shareToPlatform:plat messageObject:obj currentViewController:current completion:^(id result, NSError *error) {
-            
-            if (error) {
-                
-                succ();
-            } else {
-                
-                fail();
-            }
-        }];
-    }];
-}
-- (void)shareWithUMPanelBoard:(UMSocialPlatformType)plat withTitle:(NSString *)title withDescr:(NSString *)descr withThumImage:(UIImage *)thumImage andWebpageUrl:(NSString *)webpageUrl andCurrentVC:(UIViewController *)current andSucc:(UMSuccBlock)succ andFail:(UMFailBlock)fail {
-    
-    [UMSocialUIManager showShareMenuViewInWindowWithPlatformSelectionBlock:^(UMSocialPlatformType platformType, NSDictionary *userInfo) {
-        
-        UMShareWebpageObject *shareObj = [UMShareWebpageObject shareObjectWithTitle:title descr:descr thumImage:thumImage];
-        
-        shareObj.webpageUrl = webpageUrl;
-        
-        UMSocialMessageObject *obj = [UMSocialMessageObject new];
-        
-        obj.shareObject = shareObj;
-        
-        [[UMSocialManager defaultManager] shareToPlatform:plat messageObject:obj currentViewController:current completion:^(id result, NSError *error) {
+        [[UMSocialManager defaultManager] shareToPlatform:platformType messageObject:obj currentViewController:current completion:^(id result, NSError *error) {
             
             if (error) {
                 

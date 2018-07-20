@@ -19,6 +19,8 @@
     // Override point for customization after application launch.
     
     [[UMUtil shared] regUMAppKey];
+    
+    [[UMUtil shared] setPreDefinePlatforms:@[@(UMSocialPlatformType_WechatSession),@(UMSocialPlatformType_WechatTimeLine),@(UMSocialPlatformType_QQ),@(UMSocialPlatformType_Qzone)]];
     return YES;
 }
 

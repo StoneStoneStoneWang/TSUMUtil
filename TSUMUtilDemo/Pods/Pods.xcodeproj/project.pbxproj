@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -81,7 +81,7 @@
 		428751C2A9D95C99AE3A72CF55F2619E /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 		54F0B23AF13537C7B1A2BBC4B365B8B9 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		588C11174C0A59D121C7379F72FC0B9F /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		59552DFFD79F6F668BD22D07BA67A2D1 /* libTSUMUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTSUMUtil.a; path = libTSUMUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59552DFFD79F6F668BD22D07BA67A2D1 /* libTSUMUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSUMUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8BD8F2D0252AF59381758DA34DBA09 /* Pods-TSUMUtilDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSUMUtilDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5EDE7289DA750F1B17BBA98C8307F462 /* Pods-TSUMUtilDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSUMUtilDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		620704F94D29CFD82B822AB7AED4D943 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
@@ -96,14 +96,14 @@
 		8687C69DD828D8C0E71DAB0754203441 /* TSUMUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSUMUtil.xcconfig; sourceTree = "<group>"; };
 		8962514A97075BA60E40374907AA4FC6 /* Pods-TSUMUtilDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSUMUtilDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		8BE01C6F76FB7003C982F2AE0591C984 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
-		8F95AB151A68436FCD55C269C99BB8A2 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F95AB151A68436FCD55C269C99BB8A2 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92360C3D7A7A86E48340ACAE0896AFC4 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
 		92498738213E96BCF75D1137992D3A98 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		92F88259296A18ABDAA8447CDBCE086C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
 		9B4261086DD93B0BB734E799757EC9FD /* UMBean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMBean.h; path = Code/Util/UMBean.h; sourceTree = "<group>"; };
 		9B71072E5A92E07A9955860E4B0F0E47 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
-		AB5F5FC8D13C9819255716D5E9AB34BB /* libPods-TSUMUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSUMUtilDemo.a"; path = "libPods-TSUMUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F5FC8D13C9819255716D5E9AB34BB /* libPods-TSUMUtilDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSUMUtilDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED4F210E69B4AB7E26E7204BC5939C6 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		AF7CC3B8FFC3785F9DDB1BFD664C2CE6 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
 		B09AB3D39734E5F9EEFEBD5696F9D005 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
@@ -373,7 +373,6 @@
 				16859B7232477D8BAF5E580F4CB6B4A8 /* UMUtil.m */,
 				E2963E6D24CC17E8EFB771D8BBC8FFC2 /* Support Files */,
 			);
-			name = TSUMUtil;
 			path = TSUMUtil;
 			sourceTree = "<group>";
 		};
@@ -390,7 +389,6 @@
 			children = (
 				278E034F9FEC16C2EBAD40D20813B9CD /* Frameworks */,
 			);
-			name = UMCSecurityPlugins;
 			path = UMCSecurityPlugins;
 			sourceTree = "<group>";
 		};
@@ -401,7 +399,6 @@
 				A40F4374E83EF32D6ACEAE5658C7AB88 /* Social */,
 				022B02AFFFB3CC93301E85CDADEFF3E4 /* UI */,
 			);
-			name = UMCShare;
 			path = UMCShare;
 			sourceTree = "<group>";
 		};
@@ -439,7 +436,6 @@
 				D8132BA8C0AFC7D633DC4B2E207EC7C6 /* NSString+MJExtension.m */,
 				8519474DEE22F6FBDA1F620BDE4F1C21 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -459,7 +455,6 @@
 			children = (
 				163F8AE508B78DD05AEC62A46FE3BB15 /* Frameworks */,
 			);
-			name = UMCCommon;
 			path = UMCCommon;
 			sourceTree = "<group>";
 		};
