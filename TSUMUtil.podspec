@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 s.name         = "TSUMUtil"
 <<<<<<< HEAD
-s.version      = "1.0.9"
+s.version      = "1.1.0"
 =======
 s.version      = "1.0.6"
 >>>>>>> parent of 9485b3b... 新增setPreDefinePlatforms
