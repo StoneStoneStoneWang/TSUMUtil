@@ -2,12 +2,11 @@
 Pod::Spec.new do |s|
 
 s.name         = "TSUMUtil"
-<<<<<<< HEAD
+
 s.version      = "1.1.0"
-=======
-s.version      = "1.0.6"
->>>>>>> parent of 9485b3b... 新增setPreDefinePlatforms
+
 s.summary      = "A Lib For UM."
+
 s.description  = <<-DESC
 写此代码的初衷是在项目中导入UM之后出现编译问题
 DESC
