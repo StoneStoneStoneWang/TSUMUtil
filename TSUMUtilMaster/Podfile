@@ -4,15 +4,15 @@ target 'TSUMUtilMaster' do
 
 use_frameworks!
 
-#pod 'UMCCommon'
+pod 'UMCCommon'
 
-#pod 'UMCSecurityPlugins'
+pod 'UMCSecurityPlugins'
 
-#pod 'UMCShare/UI'
+pod 'UMCShare/UI'
 
-#pod 'UMCShare/Social/WeChat'
+pod 'UMCShare/Social/WeChat'
 
-#pod 'UMCShare/Social/QQ'
+pod 'UMCShare/Social/QQ'
 
-#pod 'MJExtension'
+pod 'MJExtension'
 end
