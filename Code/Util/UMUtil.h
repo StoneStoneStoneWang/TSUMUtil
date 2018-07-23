@@ -30,6 +30,10 @@ typedef void(^UMFailBlock)(void);
 
 + (UMUtil *)shared;
 
+#pragma mark --- 设置分享面板
+
+- (void)setPlats:(NSArray *)plats;
+
 #pragma mark --- 当前库 版本
 
 - (NSString *)currentVersion;

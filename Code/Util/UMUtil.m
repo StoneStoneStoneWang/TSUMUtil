@@ -23,21 +23,20 @@ static UMUtil *manager = nil;
     return manager;
 }
 
+- (void)setPlats:(NSArray *)plats {
+    
+    [UMSocialUIManager setPreDefinePlatforms:plats];
+}
+
 - (NSString *)currentVersion {
     
     return @TSUMUtil_VERSION;
 }
 - (void)regUMAppKey {
     
-    
-    
-//    UMConfigInstance 
-    
     UMBean *um = [UMBean mj_objectWithFile:[[NSBundle mainBundle] pathForResource:@"UMConfig" ofType:@".plist"]];
     
     [UMConfigure initWithAppkey:um.UMSocialAppkey channel:@"App Store"];
-    
-//    [UMSocialManager defaultManager].umSocialAppkey = um.UMSocialAppkey;
     
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:um.UMWechatAppkey appSecret:um.UMWechatAppSecret redirectURL:um.UMWechatRedirectURL];
     
